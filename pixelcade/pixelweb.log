@@ -1,0 +1,303 @@
+INFO:Pixelcade Listener (pixelweb) Version 3.5.9
+INFO:PIXEL resolution found in settings.ini: resolution=128x32
+INFO:Pixelcade HOME DIRECTORY: /media/fat/pixelcade/
+INFO:The default port has not been changed, all ports will be scanned to detect your PIXEL board
+To save time, edit settings.ini in the same directory as this jar or .exe and specify the port
+and connect to PIXEL over each one.
+Examples: port=COM7 for Windows, port=/dev/tty.usbmodemFA131 for Mac, and port=/dev/ACM0 for Raspberry Pi
+INFO:ioio.SerialPorts not defined.
+Will attempt to enumerate all possible ports (slow) and connect to PIXEL over each one.
+To fix, add the -Dioio.SerialPorts=xyz argument to the java command line, where xyz is a colon-separated list of port identifiers, e.g. COM1:COM2. for Windows or /dev/tty.usbmodem1411 on Mac OSX
+INFO:Adding serial port ttyACM0
+INFO:Adding serial port ttyS1
+INFO:Adding serial port ttyS0
+INFO:No Items in the Queue at Startup...
+INFO:Found PIXEL: ioio.lib.impl.RgbLedMatrixImpl@f424cf
+You may now interact with PIXEL!
+LED matrix type is: 15
+PIXEL Status: Connected
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mame/Organized.zip?t=Organized
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: Organized
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Organized
+INFO:Looking for PNG: /media/fat/pixelcade/mame\Organized.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\Organized.gif
+INFO:arcade handler received: /arcade/stream/mame/1941%20%20Counter%20Attack%20-World%20900227-.zip?t=1941%20%20Counter%20Attack%20-World%20900227-
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: 1941  Counter Attack -World 900227-
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: 1941  Counter Attack -World 900227-
+INFO:Looking for PNG: /media/fat/pixelcade/mame\1941  Counter Attack -World 900227-.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\1941  Counter Attack -World 900227-.gif
+INFO:PNG image found: file:/media/fat/pixelcade/mame/1941%20%20Counter%20Attack%20-World%20900227-.png
+INFO:arcade handler received: /arcade/stream/mister/1942.zip?t=1942
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: 1942
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: 1942
+INFO:Looking for PNG: /media/fat/pixelcade/mister\1942.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\1942.gif
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mame/1943%20The%20Battle%20of%20Midway.zip?t=1943%20The%20Battle%20of%20Midway
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: 1943 The Battle of Midway
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: 1943 The Battle of Midway
+INFO:Looking for PNG: /media/fat/pixelcade/mame\1943 The Battle of Midway.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\1943 The Battle of Midway.gif
+INFO:PNG image found: file:/media/fat/pixelcade/mame/1943%20The%20Battle%20of%20Midway.png
+INFO:arcade handler received: /arcade/stream/mame/1943%20The%20Battle%20of%20Midway%20Mark%20II.zip?t=1943%20The%20Battle%20of%20Midway%20Mark%20II
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: 1943 The Battle of Midway Mark II
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: 1943 The Battle of Midway Mark II
+INFO:Looking for PNG: /media/fat/pixelcade/mame\1943 The Battle of Midway Mark II.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\1943 The Battle of Midway Mark II.gif
+INFO:PNG image found: file:/media/fat/pixelcade/mame/1943%20The%20Battle%20of%20Midway%20Mark%20II.png
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mame/280Z-ZZAP.zip?t=280Z-ZZAP
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: 280Z-ZZAP
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: 280Z-ZZAP
+INFO:Looking for PNG: /media/fat/pixelcade/mame\280Z-ZZAP.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\280Z-ZZAP.gif
+INFO:PNG image found: file:/media/fat/pixelcade/mame/280Z-ZZAP.png
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mister/4-D%20Warriors.zip?t=4-D%20Warriors
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: 4-D Warriors
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: 4-D Warriors
+INFO:Looking for PNG: /media/fat/pixelcade/mister\4-D Warriors.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\4-D Warriors.gif
+INFO:arcade handler received: /arcade/stream/mame/Adventure%20Quiz%20Capcom%20World%202%20-Japan%20920611-.zip?t=Adventure%20Quiz%20Capcom%20World%202%20-Japan%20920611-
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: Adventure Quiz Capcom World 2 -Japan 920611-
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Adventure Quiz Capcom World 2 -Japan 920611-
+INFO:Looking for PNG: /media/fat/pixelcade/mame\Adventure Quiz Capcom World 2 -Japan 920611-.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\Adventure Quiz Capcom World 2 -Japan 920611-.gif
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mame/Alibaba%2040%20Thieves.zip?t=Alibaba%2040%20Thieves
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: Alibaba 40 Thieves
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Alibaba 40 Thieves
+INFO:Looking for PNG: /media/fat/pixelcade/mame\Alibaba 40 Thieves.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\Alibaba 40 Thieves.gif
+INFO:PNG image found: file:/media/fat/pixelcade/mame/Alibaba%2040%20Thieves.png
+INFO:arcade handler received: /arcade/stream/mister/Alien%20Arena.zip?t=Alien%20Arena
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: Alien Arena
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Alien Arena
+INFO:Looking for PNG: /media/fat/pixelcade/mister\Alien Arena.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\Alien Arena.gif
+INFO:arcade handler received: /arcade/stream/mame/Amazing%20Maze.zip?t=Amazing%20Maze
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: Amazing Maze
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Amazing Maze
+INFO:Looking for PNG: /media/fat/pixelcade/mame\Amazing Maze.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\Amazing Maze.gif
+INFO:PNG image found: file:/media/fat/pixelcade/mame/Amazing%20Maze.png
+INFO:arcade handler received: /arcade/stream/mister/Amidar.zip?t=Amidar
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: Amidar
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Amidar
+INFO:Looking for PNG: /media/fat/pixelcade/mister\Amidar.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\Amidar.gif
+INFO:arcade handler received: /arcade/stream/mame/Anteater.zip?t=Anteater
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: Anteater
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Anteater
+INFO:Looking for PNG: /media/fat/pixelcade/mame\Anteater.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\Anteater.gif
+INFO:PNG image found: file:/media/fat/pixelcade/mame/Anteater.png
+INFO:arcade handler received: /arcade/stream/mister/mister
+INFO:STREAM MODE
+INFO:Console Before Mapping: mister
+INFO:Console Mapped: mister
+INFO:Game Name Only: mister
+INFO:# of Times to Loop: null
+INFO:Looking for PNG: /media/fat/pixelcade/mister\mister.png
+INFO:Looking for GIF: /media/fat/pixelcade/mister\mister.gif
+INFO:GIF default console LED Marquee file not found, looking for default marquee: /media/fat/pixelcade/console/default-mister.gif
+INFO:PNG image found: file:/media/fat/pixelcade/console/default-marquee.png
+INFO:arcade handler received: /arcade/stream/mame/Arkanoid%20%28Japan%29.zip?t=Arkanoid%20%28Japan%29
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: Arkanoid (Japan)
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Arkanoid (Japan)
+INFO:Looking for PNG: /media/fat/pixelcade/mame\Arkanoid.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\Arkanoid.gif
+INFO:PNG image found: file:/media/fat/pixelcade/mame/Arkanoid.png
+INFO:Found GIF: /media/fat/pixelcade/mame/Arkanoid.gif
+INFO:This GIF was already decoded
+INFO:GIF Width: 128, GIF Height: 32
+INFO:arcade handler received: /arcade/stream/mame/Arkanoid%20%28unl.lives%2c%20slower%29.zip?t=Arkanoid%20%28unl.lives%2c%20slower%29
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: Arkanoid (unl.lives, slower)
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Arkanoid (unl.lives, slower)
+INFO:Looking for PNG: /media/fat/pixelcade/mame\Arkanoid.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\Arkanoid.gif
+INFO:arcade handler received: /arcade/stream/mame/Arkanoid%20%28Unlimited%20Lives%29.zip?t=Arkanoid%20%28Unlimited%20Lives%29
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: Arkanoid (Unlimited Lives)
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Arkanoid (Unlimited Lives)
+INFO:Looking for PNG: /media/fat/pixelcade/mame\Arkanoid.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\Arkanoid.gif
+INFO:arcade handler received: /arcade/stream/mame/Arkanoid%20%28World%29.zip?t=Arkanoid%20%28World%29
+INFO:STREAM MODE
+INFO:Console Before Mapping: mame
+INFO:Console Mapped: mame
+INFO:Game Name Only: Arkanoid (World)
+INFO:# of Times to Loop: null
+INFO:alt text if marquee file not found: Arkanoid (World)
+INFO:Looking for PNG: /media/fat/pixelcade/mame\Arkanoid.png
+INFO:Looking for GIF: /media/fat/pixelcade/mame\Arkanoid.gif
+INFO:PNG image found: file:/media/fat/pixelcade/mame/Arkanoid.png
