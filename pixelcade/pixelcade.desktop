@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=Pixelcade Listener
+Exec=AppRun
+Icon=pixelcade
+Comment=Pixelcade Listener for MiSTer
+Categories=Utility
