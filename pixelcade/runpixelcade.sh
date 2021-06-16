@@ -1,7 +1,7 @@
 #!/bin/bash
 pixelcade_detected=false
 java_installed=false
-INSTALLDIR=$(pwd)
+INSTALLDIR=$(readlink -f $(dirname "$0"))
 
 cat << "EOF"
        _          _               _
@@ -53,7 +53,7 @@ else
    exit 1
 fi
 
-cd /$INSTALLDIR
+cd $INSTALLDIR
 # Start Pixelcade Listener
 java -jar pixelweb.jar -b &
 #echo "launching MiSTer front end integration"
