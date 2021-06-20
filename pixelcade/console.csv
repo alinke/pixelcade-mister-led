@@ -83,6 +83,10 @@ magnavox odyssey,odyssey
 magnavox_odyssey,odyssey
 magnavox odyssey 2,magnavox_odyssey_2
 magnavox_odyssey 2,magnavox_odyssey_2
+magnavox_odyssey2,magnavox_odyssey_2
+tgfx16,nec_turbografx_16
+turbo_duo,nec_turbografx_16
+turbo duo,nec_turbografx_16
 mattel intellivision,intellivision
 mattel_intellivision,intellivision
 intellivision_official,intellivision
@@ -119,6 +123,10 @@ nintendo_entertainment_system_official,nes
 nintendo_nes,nes
 nintendo nes,nes
 openbor_official,openbor
+odyssey2,magnavox_odyssey_2
+sms,mastersystem
+master_system,mastersystem
+master system,mastersystem
 super nintendo entertainment system,snes
 super_nintendo_entertainment_system,snes
 super-nintendo-entertainment-system,snes
@@ -170,6 +178,8 @@ sega classics,sega32x
 sega_classics,sega32x
 sega dreamcast,dreamcast
 sega_dreamcast,dreamcast
+super_nes,snes
+super nes,snes
 dreamcast_official,dreamcast
 dreamcast_redream_official_sub,dreamcast
 sega game gear,gamegear
