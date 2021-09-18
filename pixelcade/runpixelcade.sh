@@ -12,7 +12,7 @@ cat << "EOF"
 |_|
 EOF
 
-echo "${magenta}       Pixelcade Launcher for MiSTer $version    ${white}"
+echo "${magenta}       Pixelcade LED Launcher for MiSTer $version    ${white}"
 echo ""
 echo "Now connect Pixelcade to a USB hub connected to your MiSTer"
 echo "Ensure the toggle switch on the Pixelcade board is pointing towards USB and not BT"
@@ -26,7 +26,6 @@ if ls /dev/ttyACM0 | grep -q '/dev/ttyACM0'; then
    echo "${yellow}PIXELCADE LED DETECTED${white}"
 else
   echo "${red}Sorry, Pixelcade LED Marquee was not detected, please ensure Pixelcade is USB connected to your Pi and the toggle switch on the Pixelcade board is pointing towards USB, exiting..."
-  #TO DO send message to ALU UI here that Pixelcade was not detected
   exit 1
 fi
 
@@ -54,34 +53,26 @@ else
 fi
 
 cd $INSTALLDIR
-# Start Pixelcade Listener
-java -jar pixelweb.jar -b &
+echo "Pixelcade is Starting..."
+java -jar pixelweb.jar -b & #this runs in the background and listens for incoming REST API calls to localhost which then change the Pixelcade LED marquee
 echo "10 second delay"
 sleep 10
-#echo "launching MiSTer front end integration"
-#./MiSTerCade -s  #-s is for no ip
-HERE="$(dirname "$(readlink -f "${0}")")"
 
-saveIP=`cat /media/fat/pixelcade/ip.txt`
+saveIP=`cat /media/fat/pixelcade/ip.txt`  #this will be localhost for Pixelcade LED and would be a real IP if using Pixelcade LCD
 
-echo "Pixelcade is Starting..."
 killall -9 pixelcadeLink 2>/dev/null
-killall -9 announce 2>/dev/null
 
 if [ "${saveIP}" == "" ]; then
  echo "Finding Pixelcade"
- ${HERE}/pixelcadeFinder |grep Peer| tail -1| cut -d' ' -f2 > /media/fat/pixelcade/ip.txt
+ ${INSTALLDIR}/pixelcadeFinder |grep Peer| tail -1| cut -d' ' -f2 > /media/fat/pixelcade/ip.txt
  echo "Pixelcade IP: `cat /media/fat/pixelcade/ip.txt`"
 else
  echo "Using saved Pixelcade: `cat /media/fat/pixelcade/ip.txt`"
 fi
 
-#killall -9 MiSTerKai20210615 2>/dev/null;
-#nohup $INSTALLDIR/MiSTerKai20210615 2>/dev/null &
-#nohup $INSTALLDIR/pixelcadeLink 2>/dev/null &
-nohup sh ${HERE}./pixelcadeLink.sh 2>/dev/null &
-
-echo "Pixelcade is Ready and Running."
-
-echo "You can connect to the MiSTer @ MiSTer.local..."
-nohup $INSTALLDIR/announce 2>/dev/null & exit
+echo "Killing MiSTer and relaunching"
+killall -9 MiSTer 2>/dev/null         #if this is removed, cores will take longer to load , reason unknown
+sleep 1
+nohup /media/fat/MiSTer 2>/dev/null &   #if you are not running MiSTer off the microSD card, change this path to match yours
+nohup sh ${INSTALLDIR}./pixelcadeLink.sh 2>/dev/null &  #this script monitors /tmp which is where the selected game and console is written, see CORENAME, CURRENTPATH, and FULLPATH, Pixelcade uses this data
+echo "Pixelcade is Ready and Running..."
